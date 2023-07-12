@@ -9,6 +9,9 @@
     --font-#{$i}: #{$value};
   }
 
+  /*! Typography - Family */
+  --font-family: #{$font-family};
+
   /*! Color - Brand */
   @each $i, $value in $theme-brand-colors {
     --color-#{$i}: #{$value};
