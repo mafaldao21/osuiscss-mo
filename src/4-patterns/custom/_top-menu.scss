@@ -1,0 +1,33 @@
+.top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__menu {
+    .button-group-item {
+      border: transparent;
+      color: var(--color-neutral-8);
+      font-weight: var(--font-regular);
+      font-size: var(--font-size-s);
+      width: auto;
+      min-width: 111px;
+    }
+
+    .button-group-selected-item {
+      color: var(--color-neutral-9);
+      background: var(--color-neutral-4);
+      font-weight: var(--font-bold);
+    }
+  }
+  &__user-dropdown {
+    .popover__username {
+      color: var(--color-neutral-8);
+      font-size: var(--font-size-s);
+      font-weight: var(--font-regular);
+    }
+
+    .popover__icon {
+      padding-left: var(--space-s);
+    }
+  }
+}
