@@ -1,0 +1,30 @@
+.table-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: var(--space-base);
+  padding: var(--space-base);
+  background: var(--color-neutral-1);
+  border-radius: var(---border-radius-soft);
+
+  &__search {
+    flex-grow: 1;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    .button-group-item {
+      color: var(--color-info);
+      font-weight: var(--font-regular-bold);
+      font-size: var(--font-size-s);
+      padding: var(--space-s) var(--space-m);
+      border: var(--border-size-s) solid var(--color-info);
+    }
+
+    .button-group-selected-item {
+      color: var(--color-neutral-0);
+      background: var(--color-info);
+    }
+  }
+}

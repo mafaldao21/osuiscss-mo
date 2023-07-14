@@ -3,6 +3,11 @@
   align-items: center;
   justify-content: space-between;
 
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+
   &__menu {
     .button-group-item {
       border: transparent;
@@ -11,6 +16,12 @@
       font-size: var(--font-size-s);
       width: auto;
       min-width: 111px;
+      border-radius: var(--border-radius-medium);
+      padding: var(--space-s);
+
+      &:last-child {
+        border-radius: var(--border-radius-soft);
+      }
     }
 
     .button-group-selected-item {
@@ -19,6 +30,7 @@
       font-weight: var(--font-bold);
     }
   }
+
   &__user-dropdown {
     .popover__username {
       color: var(--color-neutral-8);
