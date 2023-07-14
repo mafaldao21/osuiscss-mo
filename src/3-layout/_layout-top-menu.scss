@@ -1,18 +1,15 @@
 .layout-top-menu {
-    --navbar-height: 67px;
-    padding-top: var(--navbar-height);
-    &__navbar {
-        height: var(--navbar-height);
-        width: 100%;
-        background: var(--color-neutral-0);
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        padding: var(--space-base) var(--space-xl);
-    }
-    &__content {
+  --navbar-height: 56px;
+  padding-top: var(--navbar-height);
 
-
-    }
+  &__navbar {
+    height: var(--navbar-height);
+    width: 100%;
+    background: var(--color-neutral-0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    padding: var(--space-s) var(--space-xl);
+  }
 }
