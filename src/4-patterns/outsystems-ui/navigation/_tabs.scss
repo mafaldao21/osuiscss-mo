@@ -1,0 +1,15 @@
+.osui-tabs {
+  &__header {
+    .osui-tabs--is-active {
+      color: var(--color-info);
+    }
+
+    &-item {
+      min-width: 150px;
+    }
+
+    &__indicator {
+      background-color: var(--color-info);
+    }
+  }
+}
