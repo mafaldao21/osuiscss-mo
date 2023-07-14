@@ -22,6 +22,7 @@ $theme-typography-sizes: (
 $theme-typography-weights: (
   'light': 300,
   'regular': 400,
+  'regular-bold': 500,
   'semi-bold': 600,
   'bold': 700
 );
@@ -220,6 +221,7 @@ $theme-spaces: (
 $theme-border-radius: (
   'none': 0,
   'soft': 4px,
+  'medium': 8px,
   'rounded': 100px,
   'circle': 100%
 );
