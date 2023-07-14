@@ -1,0 +1,44 @@
+.icon-info-card {
+  --icon--size: 65.7px;
+  display: flex;
+  align-items: center;
+  padding: var(--space-m);
+  border: var(--border-size-s) solid var(--color-neutral-4);
+  box-shadow: 0 var(--space-xs) var(--space-s) 0 var(--color-neutral-4);
+  border-radius: var(--border-radius-medium);
+  color: var(--color-neutral-9) &__icon {
+    height: var(--icon--size);
+    width: var(--icon--size);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--title {
+      font-size: var(--font-size-h2);
+      font-weight: var(--font-bold);
+    }
+
+    &--label {
+      font-size: var(--font-size-h4);
+      font-weight: var(--font-regular-bold);
+    }
+  }
+
+  &--yellow {
+    @extend .icon-info-card;
+    color: var(--color-warning);
+  }
+
+  &--green {
+    @extend .icon-info-card;
+    color: var(--color-success);
+  }
+
+  &--blue {
+    @extend .icon-info-card;
+    color: var(--color-info);
+  }
+}
