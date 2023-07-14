@@ -1,0 +1,21 @@
+.btn {
+  font-weight: var(--font-regular);
+  padding: var(--space-s) var(--space-m);
+  font-size: var(--font-size-s);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--space-s);
+  white-space: nowrap;
+
+  &-primary {
+    background-color: var(--color-info);
+    border: var(--border-size-s) solid var(--color-info);
+  }
+
+  &-secondary {
+    background-color: var(--color-neutral-0);
+    border: var(--border-size-s) solid var(--color-info);
+    color: var(--color-info);
+  }
+}

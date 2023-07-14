@@ -1,0 +1,12 @@
+.pagination {
+  &-container {
+    .pagination-button {
+      border: none;
+    }
+
+    .is--active {
+      border: var(--border-size-s) solid var(--color-brand-primary);
+      color: var(--color-brand-primary);
+    }
+  }
+}
