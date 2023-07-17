@@ -9,6 +9,30 @@
   }
 
   &__menu {
+    display: flex;
+    align-items: center;
+    column-gap: var(--space-m);
+
+    a {
+      color: var(--color-neutral-8);
+      font-weight: var(--font-regular);
+      font-size: var(--font-size-s);
+      padding: var(--space-s);
+      white-space: nowrap;
+
+      &.active {
+        color: var(--color-neutral-9);
+        background: var(--color-neutral-4);
+        font-weight: var(--font-bold);
+        border-radius: var(--border-radius-medium);
+      }
+
+      &:hover {
+        text-decoration: none;
+        color: var(--color-neutral-8);
+      }
+    }
+
     .button-group-item {
       border: transparent;
       color: var(--color-neutral-8);

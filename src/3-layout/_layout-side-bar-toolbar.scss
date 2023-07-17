@@ -1,0 +1,33 @@
+.layout-side-bar {
+  padding-top: var(--map-toolbar-height);
+
+  &__toolbar {
+    width: 100%;
+    height: var(--map-toolbar-height);
+    position: fixed;
+    top: var(--header-size);
+    left: 0;
+  }
+
+  &__main-content {
+    --side-bar-width: 350px;
+    padding-left: var(--side-bar-width);
+
+    &-side-bar {
+      height: 100vh;
+      width: var(--side-bar-width);
+      background-color: var(--color-neutral-0);
+      padding: var(--space-m) var(--space-l);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: var(--space-m);
+      position: fixed;
+      left: 0;
+      top: calc(var(--map-toolbar-height) + var(--header-size));
+    }
+
+    &-content {
+    }
+  }
+}

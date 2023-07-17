@@ -6,7 +6,11 @@
   border: var(--border-size-s) solid var(--color-neutral-4);
   box-shadow: 0 var(--space-xs) var(--space-s) 0 var(--color-neutral-4);
   border-radius: var(--border-radius-medium);
-  color: var(--color-neutral-9) &__icon {
+  color: var(--color-neutral-9);
+  min-width: 340px;
+  width: fill;
+
+  &__icon {
     height: var(--icon--size);
     width: var(--icon--size);
   }
@@ -28,17 +32,14 @@
   }
 
   &--yellow {
-    @extend .icon-info-card;
     color: var(--color-warning);
   }
 
   &--green {
-    @extend .icon-info-card;
     color: var(--color-success);
   }
 
   &--blue {
-    @extend .icon-info-card;
     color: var(--color-info);
   }
 }
