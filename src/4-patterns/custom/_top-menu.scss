@@ -32,27 +32,6 @@
         color: var(--color-neutral-8);
       }
     }
-
-    .button-group-item {
-      border: transparent;
-      color: var(--color-neutral-8);
-      font-weight: var(--font-regular);
-      font-size: var(--font-size-s);
-      width: auto;
-      min-width: 111px;
-      border-radius: var(--border-radius-medium);
-      padding: var(--space-s);
-
-      &:last-child {
-        border-radius: var(--border-radius-soft);
-      }
-    }
-
-    .button-group-selected-item {
-      color: var(--color-neutral-9);
-      background: var(--color-neutral-4);
-      font-weight: var(--font-bold);
-    }
   }
 
   &__user-dropdown {

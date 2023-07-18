@@ -1,5 +1,4 @@
 .icon-info-card {
-  --icon--size: 65.7px;
   display: flex;
   align-items: center;
   padding: var(--space-m);
@@ -7,12 +6,10 @@
   box-shadow: 0 var(--space-xs) var(--space-s) 0 var(--color-neutral-4);
   border-radius: var(--border-radius-medium);
   color: var(--color-neutral-9);
-  min-width: 340px;
-  width: fill;
+  width: 340px;
 
   &__icon {
-    height: var(--icon--size);
-    width: var(--icon--size);
+    margin-right: var(--space-m);
   }
 
   &__info {
@@ -29,17 +26,5 @@
       font-size: var(--font-size-h4);
       font-weight: var(--font-regular-bold);
     }
-  }
-
-  &--yellow {
-    color: var(--color-warning);
-  }
-
-  &--green {
-    color: var(--color-success);
-  }
-
-  &--blue {
-    color: var(--color-info);
   }
 }
