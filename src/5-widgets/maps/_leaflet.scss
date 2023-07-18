@@ -1,0 +1,6 @@
+.map-wrapper {
+  .leaflet-marker-icon {
+    border: var(--border-size-xl) solid var(--color-neutral-0);
+    border-radius: var(--border-radius-circle);
+  }
+}

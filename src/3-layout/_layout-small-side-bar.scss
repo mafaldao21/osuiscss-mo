@@ -1,0 +1,18 @@
+.layout-small-side-bar {
+  --side-bar-width: 272px;
+  padding-left: var(--side-bar-width);
+
+  &__side-bar {
+    background-color: var(--color-info);
+    height: 100vh;
+    width: var(--side-bar-width);
+    padding: var(--space-m) var(--space-l);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-m);
+    position: fixed;
+    left: 0;
+    top: var(--header-size);
+  }
+}

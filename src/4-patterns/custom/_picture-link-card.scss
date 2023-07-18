@@ -1,0 +1,38 @@
+.picture-link-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-base);
+  background-color: var(--color-neutral-0);
+  border-radius: var(--border-radius-soft);
+  padding: var(--space-base) var(--space-base);
+
+  &__image {
+    img {
+      border-radius: var(--border-radius-circle);
+      width: 40px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &-title {
+      color: var(--neutral-neutral-10);
+      font-size: var(--font-size-s);
+      font-weight: var(--font-semi-bold);
+    }
+
+    &__link {
+      display: flex;
+      gap: var(--space-xs);
+      font-size: var(--font-size-xs);
+      color: var(--color-info);
+
+      &-text {
+        text-decoration: underline;
+      }
+    }
+  }
+}
