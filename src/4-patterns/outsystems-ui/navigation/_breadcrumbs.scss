@@ -1,0 +1,17 @@
+.breadcrumbs {
+  &-content {
+    font-size: var(--font-size-s);
+
+    .breadcrumbs-item {
+      .title {
+        color: var(--color-neutral-7);
+        a {
+          color: var(--color-info);
+        }
+      }
+      .icon {
+        color: var(--color-info);
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.image-name {
+  display: flex;
+  align-items: center;
+  gap: var(--space-s);
+
+  &__image {
+    img {
+      border-radius: var(--border-radius-circle);
+      width: 32px;
+    }
+  }
+
+  &__title {
+    font-size: var(--font-size-s);
+    color: var(--color-neutral-9);
+  }
+}

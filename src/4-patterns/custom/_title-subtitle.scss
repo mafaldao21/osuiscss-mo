@@ -1,0 +1,16 @@
+.title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-xs);
+
+  &__title {
+    font-size: var(--font-size-base);
+    color: var(--color-neutral-10);
+  }
+
+  &__subtitle {
+    font-size: var(--font-size-xs);
+    color: var(--color-neutral-9);
+  }
+}

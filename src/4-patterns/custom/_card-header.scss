@@ -1,0 +1,25 @@
+.card-header {
+  width: 392px;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--space-regular);
+
+    &-title {
+      font-size: var(--font-size-regular);
+      font-weight: var(--font-regular-bold);
+      color: var(--color-neutral-8);
+    }
+
+    &-subtitle {
+      font-size: var(--font-size-h6);
+      font-weight: var(--font-regular-bold);
+      color: var(--color-neutral-9);
+    }
+  }
+
+  &__content {
+  }
+}
