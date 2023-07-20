@@ -1,6 +1,4 @@
 .card-header {
-  width: 392px;
-
   &__header {
     display: flex;
     flex-direction: column;
@@ -18,8 +16,5 @@
       font-weight: var(--font-regular-bold);
       color: var(--color-neutral-9);
     }
-  }
-
-  &__content {
   }
 }

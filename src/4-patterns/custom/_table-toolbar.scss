@@ -26,5 +26,9 @@
       color: var(--color-neutral-0);
       background: var(--color-info);
     }
+
+    .btn + .btn {
+      margin-left: var(--space-base);
+    }
   }
 }

@@ -1,0 +1,23 @@
+.footer-menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__icon {
+    color: var(--color-neutral-8);
+
+    &:active {
+      color: var(--color-info);
+    }
+  }
+
+  &__text {
+    color: var(--color-neutral-8);
+    font-size: var(--font-size-xs);
+
+    &:active {
+      color: var(--color-info);
+      font-weight: var(--font-regular-bold);
+    }
+  }
+}

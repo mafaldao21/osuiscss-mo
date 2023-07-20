@@ -45,4 +45,21 @@
       padding-left: var(--space-s);
     }
   }
+
+  &__title {
+    font-size: var(--font-size-h6);
+    color: var(--color-info);
+    font-weight: var(--font-regular-bold);
+  }
+
+  &__avatar {
+    width: 36px;
+  }
+
+  .mobile & {
+    padding: var(--space-s) var(--space-base);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
