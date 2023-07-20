@@ -1,0 +1,15 @@
+.title-information-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    color: var(--color-neutral-8);
+    font-size: var(--font-size-base);
+  }
+
+  &__information {
+    color: var(--color-neutral-10);
+    font-size: var(--font-size-s);
+  }
+}
