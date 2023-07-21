@@ -28,4 +28,37 @@
       top: calc(var(--map-toolbar-height) + var(--header-size));
     }
   }
+
+  .tablet &,
+  .phone & {
+    .layout-side-bar__main-content {
+      display: flex;
+      flex-direction: column;
+      --side-bar-width: 100%;
+      --side-bar-height: 180px;
+      padding-left: 0;
+      padding-top: var(--side-bar-height);
+
+      &-side-bar {
+        height: fit-content;
+        width: var(--side-bar-width);
+        gap: var(--space-s);
+        position: fixed;
+        left: 0;
+        top: calc(var(--map-toolbar-height) + var(--header-size));
+      }
+
+      &-content {
+        width: 100%;
+        height: 100vh;
+      }
+    }
+  }
+
+  .phone & {
+    .layout-side-bar__main-content {
+      --side-bar-height: 140px;
+      padding-top: var(--side-bar-height);
+    }
+  }
 }

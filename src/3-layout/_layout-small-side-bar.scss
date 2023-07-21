@@ -1,5 +1,6 @@
 .layout-small-side-bar {
   --side-bar-width: 272px;
+  --phone-side-bar-height: 100px;
   padding-left: var(--side-bar-width);
 
   &__side-bar {
@@ -14,5 +15,18 @@
     position: fixed;
     left: 0;
     top: var(--header-size);
+
+    .phone & {
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      height: var(--phone-side-bar-height);
+      z-index: 10;
+    }
+  }
+
+  .phone & {
+    padding-left: 0;
+    padding-top: var(--phone-side-bar-height);
   }
 }

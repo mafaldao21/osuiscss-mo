@@ -1,0 +1,20 @@
+.footer-menu {
+  background-color: var(--color-neutral-0);
+  bottom: 0vh;
+  box-shadow: var(--shadow-s);
+  left: 0;
+  padding: var(--space-s) var(--space-xs);
+  position: fixed;
+  width: 100%;
+
+  a.active {
+    color: var(--color-info);
+    font-weight: var(--font-regular-bold);
+
+    .footer-menu-item__icon,
+    .footer-menu-item__text {
+      color: var(--color-info);
+      font-weight: var(--font-regular-bold);
+    }
+  }
+}

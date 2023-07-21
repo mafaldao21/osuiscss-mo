@@ -56,7 +56,8 @@
     width: 36px;
   }
 
-  .mobile & {
+  .phone &,
+  .tablet & {
     padding: var(--space-s) var(--space-base);
     display: flex;
     align-items: center;

@@ -6,7 +6,7 @@
   box-shadow: 0 var(--space-xs) var(--space-s) 0 var(--color-neutral-4);
   border-radius: var(--border-radius-medium);
   color: var(--color-neutral-9);
-  width: 340px;
+  min-width: 340px;
 
   &__icon {
     margin-right: var(--space-m);
@@ -16,6 +16,12 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    .phone & {
+      flex-direction: row;
+      align-items: center;
+      column-gap: var(--space-base);
+    }
 
     &--title {
       font-size: var(--font-size-h2);

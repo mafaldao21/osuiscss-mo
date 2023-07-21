@@ -1,6 +1,11 @@
 .layout-top-menu {
   padding-top: var(--header-size);
 
+  .tablet &,
+  .phone & {
+    padding-bottom: 64px;
+  }
+
   &__navbar {
     height: var(--header-size);
     width: 100%;
