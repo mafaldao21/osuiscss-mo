@@ -36,4 +36,11 @@
       color: var(--color-neutral-9);
     }
   }
+
+  .phone &,
+  .tablet & {
+    tr {
+      padding: var(--space-m) 0;
+    }
+  }
 }

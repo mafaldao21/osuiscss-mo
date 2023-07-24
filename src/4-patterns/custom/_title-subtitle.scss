@@ -12,5 +12,18 @@
   &__subtitle {
     font-size: var(--font-size-xs);
     color: var(--color-neutral-9);
+
+    .form-control {
+      border: none;
+      font-size: var(--font-size-xs);
+      color: var(--color-neutral-9);
+      padding: 0;
+      height: 20px;
+
+      &:hover,
+      &:active {
+        border: none;
+      }
+    }
   }
 }
