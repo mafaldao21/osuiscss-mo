@@ -1,0 +1,21 @@
+.layout-side-menu {
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-base) var(--space-m);
+
+  &__title {
+    font-size: var(--font-size-h5);
+    font-weight: var(--font-regular-bold);
+    text-align: left;
+  }
+
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: var(--space-base);
+  }
+}
