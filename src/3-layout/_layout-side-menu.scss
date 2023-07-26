@@ -6,6 +6,10 @@
   padding: var(--space-base) var(--space-m);
   width: 400px;
 
+  .phone & {
+    width: 250px;
+  }
+
   &__title {
     font-size: var(--font-size-h5);
     font-weight: var(--font-regular-bold);
