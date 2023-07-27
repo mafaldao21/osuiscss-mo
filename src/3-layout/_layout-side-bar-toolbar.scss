@@ -46,6 +46,7 @@
         position: fixed;
         left: 0;
         top: calc(var(--map-toolbar-height) + var(--header-size));
+        overflow-x: auto;
       }
 
       &-content {
