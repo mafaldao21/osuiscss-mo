@@ -34,15 +34,22 @@
     }
   }
 
-  &__user-dropdown {
-    .popover__username {
-      color: var(--color-neutral-8);
-      font-size: var(--font-size-s);
-      font-weight: var(--font-regular);
-    }
+  &__user {
+    &__content {
+      display: flex;
+      align-items: center;
+      gap: var(--space-s);
 
-    .popover__icon {
-      padding-left: var(--space-s);
+      &-avatar {
+        width: 36px;
+        border-radius: var(--border-radius-circle);
+      }
+
+      &-name {
+        color: var(--color-neutral-8);
+        font-size: var(--font-size-s);
+        font-weight: var(--font-regular);
+      }
     }
   }
 
@@ -54,6 +61,7 @@
 
   &__avatar {
     width: 36px;
+    border-radius: var(--border-radius-circle);
   }
 
   .phone &,

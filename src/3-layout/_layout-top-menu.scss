@@ -19,6 +19,7 @@
     .tablet &,
     .phone & {
       padding: var(--space-s) var(--space-base);
+      box-shadow: var(--shadow-m);
 
       .top-menu {
         padding-top: var(--space-xs);
