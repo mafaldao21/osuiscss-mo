@@ -1,17 +1,16 @@
 .table-toolbar {
-  display: flex;
   align-items: flex-start;
-  justify-content: space-evenly;
-  gap: var(--space-base);
-  padding: var(--space-base);
   background: var(--color-neutral-1);
   border-radius: var(---border-radius-soft);
+  display: flex;
+  gap: var(--space-base);
+  justify-content: space-evenly;
+  padding: var(--space-base);
 
   .tablet &,
   .phone & {
     flex-direction: column;
   }
-
   &__search {
     flex-grow: 1;
 
@@ -20,42 +19,44 @@
       width: 100%;
     }
   }
-
   &__actions {
-    display: flex;
     align-items: center;
+    display: flex;
 
     .phone & {
-      flex-direction: column;
       align-items: flex-start;
+      flex-direction: column;
       row-gap: var(--space-base);
 
+      .btn,
+      div {
+        width: 100%;
+
+        .icon {
+          display: none;
+        }
+      }
       .ThemeGrid_MarginGutter {
         margin-left: 0;
       }
-
       .btn + .btn {
         margin-left: 0;
       }
     }
-
     .button-group-item {
-      color: var(--color-info);
-      font-weight: var(--font-regular-bold);
-      font-size: var(--font-size-s);
-      padding: var(--space-s) var(--space-m);
       border: var(--border-size-s) solid var(--color-info);
+      color: var(--color-info);
+      font-size: var(--font-size-s);
+      font-weight: var(--font-regular-bold);
+      padding: var(--space-s) var(--space-m);
     }
-
     .button-group-selected-item {
-      color: var(--color-neutral-0);
       background: var(--color-info);
+      color: var(--color-neutral-0);
     }
-
     .btn + .btn {
       margin-left: var(--space-base);
     }
-
     .tablet &,
     .phone & {
       width: 100%;

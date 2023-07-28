@@ -1,0 +1,11 @@
+.blank-slate {
+  color: var(--color-neutral-8);
+  padding: var(--space-base);
+
+  &__icon {
+    margin-bottom: var(--space-s);
+  }
+  &__message {
+    font-size: var(--font-size-base);
+  }
+}
